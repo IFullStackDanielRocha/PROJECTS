@@ -8,6 +8,7 @@ import Projects from './components/pages/Projects';
 import Container from './layout/Container';
 import Navbar from './layout/Navbar';
 import Footer from './layout/Footer';
+import Project from './components/pages/Project';
 
 function App() {
 
@@ -33,6 +34,10 @@ function App() {
           </Route>
           <Route path="/newproject">
             <NewProject/>
+          </Route>
+
+          <Route path="/project/:id">
+            <Project/>
           </Route>
           
         </Container>

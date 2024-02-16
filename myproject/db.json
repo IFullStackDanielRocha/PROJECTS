@@ -1,0 +1,55 @@
+{
+  "projects": [
+    {
+      "id": "0b51",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "name": "Projeto Incial",
+      "budget": "5000",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "f300",
+      "category": {
+        "id": "4",
+        "name": "Design"
+      },
+      "name": "Projeto Final",
+      "budget": "15000",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "706a",
+      "name": "Novo teste",
+      "budget": "12000",
+      "category": {
+        "id": "3",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Planejamento"
+    },
+    {
+      "id": "4",
+      "name": "Design"
+    }
+  ]
+}
