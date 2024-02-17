@@ -7,9 +7,35 @@
         "name": "Desenvolvimento"
       },
       "name": "Projeto Incial",
-      "budget": "5000",
-      "cost": 0,
-      "services": []
+      "budget": "789522",
+      "cost": null,
+      "services": [
+        {
+          "id": "4fbaf1ea-17de-443b-9c9f-89df860f2d34"
+        },
+        {
+          "id": "4fbaf1ea-17de-443b-9c9f-89df860f2d34"
+        },
+        {
+          "id": "4fbaf1ea-17de-443b-9c9f-89df860f2d34"
+        },
+        {
+          "id": "4fbaf1ea-17de-443b-9c9f-89df860f2d34"
+        },
+        {
+          "id": "4fbaf1ea-17de-443b-9c9f-89df860f2d34"
+        },
+        {
+          "id": "4fbaf1ea-17de-443b-9c9f-89df860f2d34"
+        },
+        {
+          "id": "4fbaf1ea-17de-443b-9c9f-89df860f2d34"
+        },
+        {
+          "id": "4fbaf1ea-17de-443b-9c9f-89df860f2d34"
+        }
+      ],
+      "badget": "50004"
     },
     {
       "id": "f300",
