@@ -13,8 +13,8 @@ function ServiceForm({handleSubmit, textBtn, projectData}) {
         handleSubmit(projectData)
     }   
     function handleChange(e) {
-        setService({...service,[e.target.name]: e.target.value})
-
+        setService({...service, [e.target.name]: e.target.value})
+        //console.log(setService)
     }
 
 
@@ -26,7 +26,7 @@ function ServiceForm({handleSubmit, textBtn, projectData}) {
                 text="Nome do serviço"
                 name="name"
                 placeholder="Insira o nome do serviço"
-                handleChange={handleChange}
+                handleOnChange={handleChange}
 
             />
 
@@ -35,7 +35,7 @@ function ServiceForm({handleSubmit, textBtn, projectData}) {
                 text="Custo do serviço"
                 name="cost"
                 placeholder="Inform custo serviço"
-                handleChange={handleChange}
+                handleOnChange={handleChange}
 
             />
 
@@ -45,7 +45,7 @@ function ServiceForm({handleSubmit, textBtn, projectData}) {
                 text="Descrição do serviço"
                 name="description"
                 placeholder="Descreva o serviço"
-                handleChange={handleChange}
+                handleOnChange={handleChange}
 
             />
 
